@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-# instargram_clone
-A Flutter project that recreates parts of the Instagram interface (profile, posts, and navigation). This is a work in progress and more features will be added.
-=======
 # instagram_clone
 
-A new Flutter project.
+A Flutter project that recreates parts of the Instagram interface (profile, posts, and navigation). This is a work in progress and more features will be added.
 
 ## Getting Started
 
@@ -18,4 +14,3 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
->>>>>>> 1a7aabe (first commit)
