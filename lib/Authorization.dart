@@ -37,14 +37,12 @@ class _AuthorizationPageState extends State<AuthorizationPage> {
 
   void validateAndLogin() {
     setState(() {
-      // تحقق البريد
       if (!isValidEmail(emailController.text)) {
         emailError = 'Please enter a valid email';
       } else {
         emailError = '';
       }
 
-      // تحقق كلمة المرور
       if (!isValidPassword(passwordController.text)) {
         passwordError =
         'Password must include uppercase, lowercase & special character';
@@ -52,7 +50,6 @@ class _AuthorizationPageState extends State<AuthorizationPage> {
         passwordError = '';
       }
 
-      // إذا كل شيء صحيح، انتقل للصفحة الرئيسية
       if (emailError.isEmpty && passwordError.isEmpty) {
         Navigator.pushReplacement(
           context,
